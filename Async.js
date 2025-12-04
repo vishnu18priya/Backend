@@ -6,6 +6,8 @@ function getuserdetails(id){
         }, 2000);
     })
 };
+
+
 console.log("start");
 const myfun=async()=>{
     console.log("123")
