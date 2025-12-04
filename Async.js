@@ -1,4 +1,3 @@
-const { reject } = require("async");
 
 function getuserdetails(id){
     return new Promise((resolve, reject)=>{
@@ -7,11 +6,7 @@ function getuserdetails(id){
         }, 2000);
     })
 };
-function getUserSubjects(userroll){
-    return new Promise((resolve, reject)=>{
-        console.log()
-    })
-}
+console.log("start");
 const myfun=async()=>{
     console.log("123")
     const result=await getuserdetails("123");
